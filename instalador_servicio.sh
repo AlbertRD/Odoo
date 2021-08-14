@@ -37,17 +37,17 @@ GENERATE_RANDOM_PASSWORD="False"
 OE_CONFIG="${OE_USER}-server"
 
 # Set the website name
-WEBSITE_NAME="web sin www.com"
+WEBSITE_NAME="web sin www"
 
-WEBSITE_NAME_WWW="web con .com"
+WEBSITE_NAME_WWW="web con www"
 
-IP_ADDRESS="161.22.45.37"
+IP_ADDRESS="161.22.45.372"
 # Set the default Odoo longpolling port (you still have to use -c /etc/odoo-server.conf for example to use this.)
 LONGPOLLING_PORT="8072"
 # Set to "True" to install certbot and have ssl enabled, "False" to use http
 ENABLE_SSL="True"
 # Provide Email to register ssl certificate
-ADMIN_EMAIL="alto@fpress.com"
+ADMIN_EMAIL="odoo@example.com"
 ##
 ###  WKHTMLTOPDF download links
 ## === Ubuntu Trusty x64 & x32 === (for other distributions please replace these two links,
